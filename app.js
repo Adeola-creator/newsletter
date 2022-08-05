@@ -34,7 +34,7 @@ let myData = JSON.stringify(data);
 let url = "https://us17.api.mailchimp.com/3.0/lists/cf348a6b1d"
 let options = {
     method: "POST",
-    auth: "adeola:a6f856583e9c90ac7c0de767287391273-us17"
+    auth: "adeola:6f856583e9c90ac7c0de767287391273-us17"
 }
 const request = https.request(url, options, function(response){
     if (response.statusCode === 200){
